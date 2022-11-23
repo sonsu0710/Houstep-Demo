@@ -16,7 +16,7 @@ function BannerSlide() {
             <Swiper
                 style={{
                     width: "100wh",
-                    height: "60vh",
+                    height: "400px",
                     backgroundColor: "#FFF5F1",
                     borderRadius: "12px",
                 }}

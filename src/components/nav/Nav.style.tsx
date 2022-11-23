@@ -5,12 +5,13 @@ const Navbar = styled.div`
   width: 70vw;
   height: 80px;
   z-index: 10;
-  ${marginAuto}
-  ${flexSpaceBetween}
+  ${marginAuto};
+  ${flexSpaceBetween};
+  border-bottom: solid 1px rgba(0, 0, 0, 0.07);
 `
 
 const BorderBottom = styled.div`
-  border-bottom: solid 1px rgba(0, 0, 0, 0.07);
+  
 `
 
 const InnerNavLeft = styled.div`

@@ -9,6 +9,9 @@ function MainGallery() {
             <GalleryItem/>
             <GalleryItem/>
             <GalleryItem/>
+            <GalleryItem/>
+            <GalleryItem/>
+            <GalleryItem/>
         </GalleryContainer>
     )
 }

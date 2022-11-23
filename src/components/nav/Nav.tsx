@@ -14,7 +14,6 @@ function Nav() {
                     <NavItem>시공자재</NavItem>
                 </InnerNavRight>
             </Navbar>
-            <BorderBottom />
         </>
     )
 }
