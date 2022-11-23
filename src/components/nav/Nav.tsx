@@ -9,10 +9,9 @@ function Nav() {
                     <NavItem>LEEHOUSE</NavItem>
                 </InnerNavLeft>
                 <InnerNavRight>
-                    <NavItem>서비스 소개</NavItem>
-                    <NavItem>시공 견적</NavItem>
-                    <NavItem>자재</NavItem>
-                    <NavItem>시공 사례</NavItem>
+                    <NavItem>시공사례</NavItem>
+                    <NavItem>시공견적</NavItem>
+                    <NavItem>시공자재</NavItem>
                 </InnerNavRight>
             </Navbar>
             <BorderBottom />

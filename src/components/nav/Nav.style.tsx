@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import {flexCenter, marginAuto} from "../GlobalStyles";
+import {flexCenter, flexSpaceBetween, marginAuto} from "../GlobalStyles";
 
 const Navbar = styled.div`
   width: 70vw;
   height: 80px;
   z-index: 10;
   ${marginAuto}
-  ${flexCenter}
+  ${flexSpaceBetween}
 `
 
 const BorderBottom = styled.div`
@@ -30,12 +30,17 @@ const NavItem = styled.div`
   font-weight: bold;
   display: flex;
   align-items: center;
-  
+
   line-height: 80px;
   white-space: nowrap;
   transform: rotate(0.03deg);
-  
+
   cursor: pointer;
+
+  &:hover {
+    color: orange;;
+    transition: 0.3s;
+  }
 `
 
 export {Navbar, InnerNavLeft, InnerNavRight, NavItem, BorderBottom}

@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Nav} from './components/nav/Nav';
 import GlobalStyle from "./components/GlobalStyles";
 import {BannerSlide} from "./components/swiper/MainSlide";
+import {MainArticle} from "./components/main-article/MainArticle";
 
 function App() {
     return (
@@ -11,6 +11,7 @@ function App() {
             <GlobalStyle/>
             <Nav/>
             <BannerSlide/>
+            <MainArticle/>
         </>
     );
 }

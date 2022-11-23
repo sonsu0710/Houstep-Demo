@@ -9,17 +9,20 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: "Helvetica", "Arial", sans-serif;
-    line-height: 1.5;
+    line-height: 1;
   }
 `
 
-const flexCenter = css`
+const flexSpaceBetween = css`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  //border: solid 1px black;
 `;
+
+const flexCenter = css`
+  display: flex;
+  justify-content: center;
+`
 
 const marginAuto = css`
   margin-right: auto;
@@ -27,4 +30,4 @@ const marginAuto = css`
 `
 
 export default GlobalStyle;
-export {flexCenter, marginAuto}
+export {flexCenter, marginAuto, flexSpaceBetween}

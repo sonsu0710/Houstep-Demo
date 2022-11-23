@@ -16,7 +16,7 @@ function BannerSlide() {
             <Swiper
                 style={{
                     width: "100wh",
-                    height: "40vh",
+                    height: "60vh",
                     backgroundColor: "#FFF5F1",
                     borderRadius: "12px",
                 }}
@@ -31,9 +31,9 @@ function BannerSlide() {
                 }}
                 autoplay={{ delay: 3000 }}
             >
-                <SwiperSlide>슬라이더1</SwiperSlide>
-                <SwiperSlide>슬라이더2</SwiperSlide>
-                <SwiperSlide>슬라이더3</SwiperSlide>
+                <SwiperSlide>추천사례 1</SwiperSlide>
+                <SwiperSlide>추천사례 2</SwiperSlide>
+                <SwiperSlide>추천사례 3</SwiperSlide>
             </Swiper>
         </>
     )
